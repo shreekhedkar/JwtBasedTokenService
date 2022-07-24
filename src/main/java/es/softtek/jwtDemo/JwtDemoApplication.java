@@ -21,6 +21,7 @@ public class JwtDemoApplication {
 
 		Map<String, Object> prop = new HashMap<String, Object>();
 		prop.put("server.port", "8085");
+
 		SpringApplication app = new SpringApplication(JwtDemoApplication.class);
 		app.setDefaultProperties(prop);
 		app.run(args);
